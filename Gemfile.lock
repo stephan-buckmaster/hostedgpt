@@ -119,14 +119,13 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
-    coderay (1.1.3)
     concurrent-ruby (1.3.4)
     connection_pool (2.4.1)
     crack (1.0.0)
       bigdecimal
       rexml
     crass (1.0.6)
-    date (3.3.4)
+    date (3.4.1)
     debug (1.8.0)
       irb (>= 1.5.0)
       reline (>= 0.3.1)
@@ -202,7 +201,6 @@ GEM
       net-smtp
     marcel (1.0.4)
     matrix (0.4.2)
-    method_source (1.0.0)
     mini_magick (4.13.2)
     mini_mime (1.1.5)
     minitest (5.25.1)
@@ -218,7 +216,7 @@ GEM
     multipart-post (2.3.0)
     name_of_person (1.1.3)
       activesupport (>= 5.2.0)
-    net-imap (0.5.0)
+    net-imap (0.5.6)
       date
       net-protocol
     net-pop (0.1.2)
@@ -227,7 +225,7 @@ GEM
       timeout
     net-smtp (0.5.0)
       net-protocol
-    nio4r (2.7.3)
+    nio4r (2.7.4)
     nokogiri (1.16.7-aarch64-linux)
       racc (~> 1.4)
     nokogiri (1.16.7-arm64-darwin)
@@ -277,19 +275,14 @@ GEM
     prism (0.19.0)
     protocol (2.0.0)
       ruby_parser (~> 3.0)
-    pry (0.14.2)
-      coderay (~> 1.1)
-      method_source (~> 1.0)
-    pry-rails (0.3.9)
-      pry (>= 0.10.4)
     psych (5.1.2)
       stringio
     public_suffix (6.0.1)
-    puma (6.4.0)
+    puma (6.6.0)
       nio4r (~> 2.0)
     raabro (1.4.0)
     racc (1.8.1)
-    rack (3.1.8)
+    rack (3.1.10)
     rack-cors (2.0.2)
       rack (>= 2.0.0)
     rack-protection (4.0.0)
@@ -350,7 +343,7 @@ GEM
     regexp_parser (2.8.3)
     reline (0.5.10)
       io-console (~> 0.5)
-    rexml (3.3.8)
+    rexml (3.3.9)
     rubocop (1.57.2)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
@@ -454,7 +447,7 @@ GEM
     tiktoken_ruby (0.0.9-x86_64-darwin)
     tiktoken_ruby (0.0.9-x86_64-linux)
     timecop (0.9.8)
-    timeout (0.4.1)
+    timeout (0.4.3)
     tins (1.33.0)
       bigdecimal
       sync
@@ -520,7 +513,6 @@ DEPENDENCIES
   ostruct
   pg (~> 1.1)
   postmark-rails
-  pry-rails
   puma (>= 6.0)
   rack-cors
   rails (~> 7.2.2)
